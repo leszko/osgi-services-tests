@@ -3,7 +3,7 @@ Performance tests of OSGi services
 
 Test registering and retrieving many OSGi services.
 
-| Service number | Register time [ms] | Retrieve time [ms] |
+| Number of services | Register time [ms] | Retrieve time [ms] |
 | ------------- |:-------------:|:-----:|
 | 10 000      | 299 | 396246 |
 | 5 000      | 181 | 51499 |
