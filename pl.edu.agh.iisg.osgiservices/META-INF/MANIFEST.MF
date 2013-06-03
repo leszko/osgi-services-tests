@@ -4,7 +4,6 @@ Bundle-Name: OSGi Services performance tests
 Bundle-SymbolicName: pl.edu.agh.iisg.osgiservices
 Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: pl.edu.agh.iisg.osgiservices.Activator
-Require-Bundle: org.eclipse.ui,
- org.eclipse.core.runtime
+Import-Package: org.osgi.framework
 Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
